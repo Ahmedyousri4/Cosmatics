@@ -31,14 +31,12 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBody: true,
-
       resizeToAvoidBottomInset: true,
-      backgroundColor: Color(0xffD9D9D9),
       bottomNavigationBar: SafeArea(
         child: Container(
           height: 65,
           alignment: Alignment.center,
-          margin: EdgeInsets.symmetric(horizontal: 20, vertical: 0),
+          margin: EdgeInsets.symmetric(horizontal: 20,),
           decoration: BoxDecoration(
             color: Color(0xffD9D9D9),
             borderRadius: BorderRadius.circular(25),

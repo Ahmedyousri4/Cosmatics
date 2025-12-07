@@ -10,7 +10,6 @@ class CreatAccount extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffD9D9D9),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(13).copyWith(top: 50),
